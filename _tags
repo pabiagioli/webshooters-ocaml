@@ -1,0 +1,2 @@
+true: package(cohttp), package(lwt), package(lwt.unix), package(lwt.ppx), package(cmdliner), package(logs.cli), package(conduit)
+true: thread,debug
