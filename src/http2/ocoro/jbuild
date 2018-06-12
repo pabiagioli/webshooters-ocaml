@@ -1,0 +1,6 @@
+(jbuild_version 1)
+(library 
+    ((name ocoro)
+     (modules (ocoro))
+     (synopsis "Coroutines for OCaml" )
+     (libraries (delimcc))))

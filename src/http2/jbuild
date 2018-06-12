@@ -1,0 +1,6 @@
+(jbuild_version 1)
+(executable 
+    ((name webshooters) 
+     
+     (libraries (lwt cmdliner logs.cli logs.lwt logs.fmt lwt.unix astring x509 tls tls.lwt ocoro))
+     (preprocess (pps (lwt.ppx)))))
